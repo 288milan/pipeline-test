@@ -73,6 +73,6 @@ metadata:
     app: nginx
 spec:
   ports:
-  - port: 30004
+  - port: 8080
   selector:
     app: nginx-container-004
