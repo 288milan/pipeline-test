@@ -75,7 +75,5 @@ metadata:
 spec:
   ports:
   - port: 30005
-    targetPort: 8080
   selector:
     app: nginx-container-005
-  type: LoadBalancer
