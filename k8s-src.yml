@@ -74,6 +74,6 @@ metadata:
     app: nginx
 spec:
   ports:
-  - port: 30005
+  - port: 8080
   selector:
     app: nginx-container-005
