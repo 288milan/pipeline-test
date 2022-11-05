@@ -13,6 +13,6 @@ spec:
         pathType: Exact  
         backend:
           service:
-            name: pipetest-004
+            name: nginx-service-005
             port: 
               number: 8080
