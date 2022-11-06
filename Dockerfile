@@ -23,3 +23,5 @@ RUN echo "Hi Welcome to k8s & TaTa ByE ByE" > /var/www/html/index.html
 EXPOSE 8080
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
+
+
